@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Calificación final en Algoritmos</title>
+</head>
+<body>
+	<h1>Calificación final en Algoritmos</h1>
+	<form>
+		<label for="calificacion1">Calificación del primer parcial:</label>
+		<input type="number" id="calificacion1" name="calificacion1" required><br><br>
+
+		<label for="calificacion2">Calificación del segundo parcial:</label>
+		<input type="number" id="calificacion2" name="calificacion2" required><br><br>
+
+		<label for="calificacion3">Calificación del tercer parcial:</label>
+		<input type="number" id="calificacion3" name="calificacion3" required><br><br>
+
+		<label for="calificacionExamenFinal">Calificación del examen final:</label>
+		<input type="number" id="calificacionExamenFinal" name="calificacionExamenFinal" required><br><br>
+
+		<label for="calificacionTrabajoFinal">Calificación del trabajo final:</label>
+		<input type="number" id="calificacionTrabajoFinal" name="calificacionTrabajoFinal" required><br><br>
+
+		<button type="button" onclick="calcularCalificacionFinal()">Calcular calificación final</button>
+	</form>
+
+	<div id="resultado"></div>
+
+	<script src="script.js"></script>
+</body>
+</html>
